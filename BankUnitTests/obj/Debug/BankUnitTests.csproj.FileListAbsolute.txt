@@ -1,0 +1,15 @@
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\BankUnitTests.dll
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\BankUnitTests.pdb
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\obj\Debug\BankUnitTests.csproj.AssemblyReference.cache
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\obj\Debug\BankUnitTests.csproj.CoreCompileInputs.cache
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\obj\Debug\BankUnitTests.csproj.CopyComplete
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\obj\Debug\BankUnitTests.dll
+C:\Users\broom\source\repos\BankingTest\BankUnitTests\obj\Debug\BankUnitTests.pdb

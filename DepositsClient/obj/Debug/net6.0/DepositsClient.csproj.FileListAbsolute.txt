@@ -1,0 +1,7 @@
+C:\Users\broom\source\repos\BankingTest\DepositsClient\obj\Debug\net6.0\DepositsClient.csproj.AssemblyReference.cache
+C:\Users\broom\source\repos\BankingTest\DepositsClient\obj\Debug\net6.0\DepositsClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broom\source\repos\BankingTest\DepositsClient\obj\Debug\net6.0\DepositsClient.AssemblyInfoInputs.cache
+C:\Users\broom\source\repos\BankingTest\DepositsClient\obj\Debug\net6.0\DepositsClient.AssemblyInfo.cs
+C:\Users\broom\source\repos\BankingTest\DepositsClient\obj\Debug\net6.0\DepositsClient.csproj.CoreCompileInputs.cache
+C:\Users\broom\source\repos\BankingTest\DepositsClient\obj\Debug\net6.0\DepositsClient.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\broom\source\repos\BankingTest\DepositsClient\obj\Debug\net6.0\DepositsClient.MvcApplicationPartsAssemblyInfo.cache

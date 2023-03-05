@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DepositsAccess.Service/1.0.0": {
+        "dependencies": {
+          "Banking.Common": "1.0.0",
+          "DepositsAccess.Contracts": "1.0.0",
+          "StorageImplementation": "1.0.0"
+        },
+        "runtime": {
+          "DepositsAccess.Service.dll": {}
+        }
+      },
+      "Banking.Common/1.0.0": {
+        "runtime": {
+          "Banking.Common.dll": {}
+        }
+      },
+      "DepositsAccess.Contracts/1.0.0": {
+        "runtime": {
+          "DepositsAccess.Contracts.dll": {}
+        }
+      },
+      "StorageImplementation/1.0.0": {
+        "runtime": {
+          "StorageImplementation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DepositsAccess.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Banking.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DepositsAccess.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StorageImplementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\DepositsAccess.Contracts.csproj.AssemblyReference.cache
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\DepositsAccess.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\DepositsAccess.Contracts.AssemblyInfoInputs.cache
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\DepositsAccess.Contracts.AssemblyInfo.cs
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\DepositsAccess.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\bin\Debug\net6.0\DepositsAccess.Contracts.deps.json
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\bin\Debug\net6.0\DepositsAccess.Contracts.dll
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\bin\Debug\net6.0\DepositsAccess.Contracts.pdb
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\DepositsAccess.Contracts.dll
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\refint\DepositsAccess.Contracts.dll
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\DepositsAccess.Contracts.pdb
+C:\Users\broom\source\repos\BankingTest\DespositsAccess.Contracts\obj\Debug\net6.0\ref\DepositsAccess.Contracts.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QJUEALeZZxwQJnz/JkPvfwCIQ45uVPJa6tpCIzorJ/4=",
+  "Source": "BankClient",
+  "BasePath": "_content/BankClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

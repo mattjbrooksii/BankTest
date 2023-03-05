@@ -1,0 +1,12 @@
+C:\Users\broom\source\repos\BankingTest\Banking.Common\bin\Debug\net6.0\Banking.Common.deps.json
+C:\Users\broom\source\repos\BankingTest\Banking.Common\bin\Debug\net6.0\Banking.Common.dll
+C:\Users\broom\source\repos\BankingTest\Banking.Common\bin\Debug\net6.0\Banking.Common.pdb
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\Banking.Common.csproj.AssemblyReference.cache
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\Banking.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\Banking.Common.AssemblyInfoInputs.cache
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\Banking.Common.AssemblyInfo.cs
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\Banking.Common.csproj.CoreCompileInputs.cache
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\Banking.Common.dll
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\refint\Banking.Common.dll
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\Banking.Common.pdb
+C:\Users\broom\source\repos\BankingTest\Banking.Common\obj\Debug\net6.0\ref\Banking.Common.dll
