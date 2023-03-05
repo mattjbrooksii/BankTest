@@ -11,4 +11,10 @@
     <ProjectReference Include="..\DespositsAccess.Contracts\AccountsAccess.Contracts.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>BankingTests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+
 </Project>

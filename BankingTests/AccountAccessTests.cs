@@ -6,11 +6,6 @@ namespace BankingTests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public async Task CreateAccount_CanCreate()
         {
@@ -24,8 +19,6 @@ namespace BankingTests
             Assert.IsNotNull(result);
             Assert.IsTrue(result.TransactionSucceeded);
             Assert.IsNotNull(result.Account);
-
-            Assert.Pass();
         }
 
         [Test]
@@ -40,8 +33,6 @@ namespace BankingTests
 
             Assert.IsNotNull(result);
             Assert.IsFalse(result.TransactionSucceeded);
-
-            Assert.Pass();
         }
 
         [Test]
@@ -67,8 +58,6 @@ namespace BankingTests
             Assert.IsTrue(r.TransactionSucceeded);
             Assert.IsNotNull(r.Account);
             Assert.That((result.Account.Balance + depositAmount).Equals(r.Account.Balance));
-
-            Assert.Pass();
         }
 
         [Test]
@@ -93,8 +82,6 @@ namespace BankingTests
             Assert.IsNotNull(r);
             Assert.IsTrue(r.TransactionSucceeded);
             Assert.IsNotNull(r.Account);
-
-            Assert.Pass();
         }
     }
 }
