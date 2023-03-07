@@ -1,8 +1,3 @@
-C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.csproj.AssemblyReference.cache
-C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.AssemblyInfoInputs.cache
-C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.AssemblyInfo.cs
-C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.csproj.CoreCompileInputs.cache
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\bin\Debug\net6.0\AccountsAccess.Service.deps.json
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\bin\Debug\net6.0\AccountsAccess.Service.dll
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\bin\Debug\net6.0\AccountsAccess.Service.pdb
@@ -10,6 +5,11 @@ C:\Users\broom\source\repos\BankingTest\DepositsAccess\bin\Debug\net6.0\Accounts
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\bin\Debug\net6.0\Banking.Common.dll
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\bin\Debug\net6.0\Banking.Common.pdb
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\bin\Debug\net6.0\AccountsAccess.Contracts.pdb
+C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.csproj.AssemblyReference.cache
+C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.AssemblyInfoInputs.cache
+C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.AssemblyInfo.cs
+C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.csproj.CoreCompileInputs.cache
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.csproj.CopyComplete
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\AccountsAccess.Service.dll
 C:\Users\broom\source\repos\BankingTest\DepositsAccess\obj\Debug\net6.0\refint\AccountsAccess.Service.dll

@@ -1,8 +1,8 @@
 ﻿namespace StorageImplementation.Accounts
 {
-    internal static class Account_TestData
+    internal class Account_TestData
     {
-        static Account_TestData()
+        public Account_TestData()
         {
             TestData = new()
             {
@@ -12,8 +12,7 @@
                     AccountBalance = 500.00m,
                     User = new UserEntity
                     {
-                        FirstName = "John",
-                        LastName = "Doe",
+                        Name = "John Doe",
                         Id = Guid.NewGuid().ToString(),
                     }
                 },
@@ -23,8 +22,7 @@
                     AccountBalance = 100000.00m,
                     User = new UserEntity
                     {
-                        FirstName = "Jane",
-                        LastName = "Doe",
+                        Name = "Jane Doe",
                         Id = Guid.NewGuid().ToString(),
                     }
                 },
@@ -34,14 +32,13 @@
                     AccountBalance = 100.00m,
                     User = new UserEntity
                     {
-                        FirstName = "Sal",
-                        LastName = "Goodman",
+                        Name = "Sal Doe",
                         Id = Guid.NewGuid().ToString(),
                     }
                 },
             };
         }
 
-        public static List<AccountEntity> TestData { get; set; }            
+        public List<AccountEntity> TestData { get; set; }            
     }
 }

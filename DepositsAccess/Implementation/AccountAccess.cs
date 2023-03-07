@@ -46,7 +46,7 @@ namespace AccountsAccess.Service.Implementation
                 Balance = createRequest.StartingFunds,
                 Id = Guid.NewGuid().ToString(),
                 UserId = Guid.NewGuid().ToString(),
-                UserFullName = createRequest.UserName
+                UserName = createRequest.UserName
             });
 
             return new CreateAccountResult
@@ -62,14 +62,17 @@ namespace AccountsAccess.Service.Implementation
             var accounts = await _accountStorage.GetAllAccounts(new GetAccountsParameters
             {
                 UserId = userAccountsRequest.UserId,
-                UserFullName = userAccountsRequest.UserFullName
+                UserFullName = userAccountsRequest.UserName
             });
+
+            var userId = accounts.FirstOrDefault()?.UserId;
+            var userName = accounts.FirstOrDefault()?.UserName;
 
             return new GetUserAccountsResult
             {
                 UserAccounts = accounts,
-                UserFullName = userAccountsRequest.UserFullName,
-                UserId = userAccountsRequest.UserId
+                UserFullName = userName,
+                UserId = userId
             };
         }
 

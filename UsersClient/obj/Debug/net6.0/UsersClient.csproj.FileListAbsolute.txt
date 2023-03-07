@@ -1,7 +1,0 @@
-C:\Users\broom\source\repos\BankingTest\UsersClient\obj\Debug\net6.0\UsersClient.csproj.AssemblyReference.cache
-C:\Users\broom\source\repos\BankingTest\UsersClient\obj\Debug\net6.0\UsersClient.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\broom\source\repos\BankingTest\UsersClient\obj\Debug\net6.0\UsersClient.AssemblyInfoInputs.cache
-C:\Users\broom\source\repos\BankingTest\UsersClient\obj\Debug\net6.0\UsersClient.AssemblyInfo.cs
-C:\Users\broom\source\repos\BankingTest\UsersClient\obj\Debug\net6.0\UsersClient.csproj.CoreCompileInputs.cache
-C:\Users\broom\source\repos\BankingTest\UsersClient\obj\Debug\net6.0\UsersClient.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\broom\source\repos\BankingTest\UsersClient\obj\Debug\net6.0\UsersClient.MvcApplicationPartsAssemblyInfo.cache

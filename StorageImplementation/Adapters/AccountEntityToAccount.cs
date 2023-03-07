@@ -8,7 +8,6 @@ namespace StorageImplementation.Adapters
     {
         public AccountEntity AdaptFrom(Account source)
         {
-            var names = source.UserFullName.Split(' ');
 
             return new AccountEntity
             {
@@ -17,8 +16,7 @@ namespace StorageImplementation.Adapters
                 User = new UserEntity
                 {
                     Id = source.UserId,
-                    FirstName = names[0],
-                    LastName = names[1]
+                    Name = source.UserName
                 }
             };
         }
@@ -29,7 +27,7 @@ namespace StorageImplementation.Adapters
             {
                 Balance = source.AccountBalance,
                 UserId = source.User.Id,
-                UserFullName = source.User.FullName,
+                UserName = source.User.Name,
                 Id = source.AccountId
             };
         }

@@ -289,6 +289,9 @@
             "projectReferences": {
               "C:\\Users\\broom\\source\\repos\\BankingTest\\DepositsAccess\\AccountsAccess.Service.csproj": {
                 "projectPath": "C:\\Users\\broom\\source\\repos\\BankingTest\\DepositsAccess\\AccountsAccess.Service.csproj"
+              },
+              "C:\\Users\\broom\\source\\repos\\BankingTest\\DespositsAccess.Contracts\\AccountsAccess.Contracts.csproj": {
+                "projectPath": "C:\\Users\\broom\\source\\repos\\BankingTest\\DespositsAccess.Contracts\\AccountsAccess.Contracts.csproj"
               }
             }
           }

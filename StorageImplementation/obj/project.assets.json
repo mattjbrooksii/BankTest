@@ -57,6 +57,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AccountsAccess.Contracts >= 1.0.0",
       "AccountsAccess.Service >= 1.0.0"
     ]
   },
@@ -89,6 +90,9 @@
           "projectReferences": {
             "C:\\Users\\broom\\source\\repos\\BankingTest\\DepositsAccess\\AccountsAccess.Service.csproj": {
               "projectPath": "C:\\Users\\broom\\source\\repos\\BankingTest\\DepositsAccess\\AccountsAccess.Service.csproj"
+            },
+            "C:\\Users\\broom\\source\\repos\\BankingTest\\DespositsAccess.Contracts\\AccountsAccess.Contracts.csproj": {
+              "projectPath": "C:\\Users\\broom\\source\\repos\\BankingTest\\DespositsAccess.Contracts\\AccountsAccess.Contracts.csproj"
             }
           }
         }

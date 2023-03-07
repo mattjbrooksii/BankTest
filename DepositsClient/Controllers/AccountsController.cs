@@ -17,6 +17,7 @@ namespace DepositsClient.Controllers
         }
 
         [HttpPost]
+        [Route("CreateAccount")]
         public async Task<IActionResult> CreateAccount(CreateAccountRequestMessage request)
         {
             var r = await _access.CreateAccount(new CreateAccountRequest
@@ -25,10 +26,16 @@ namespace DepositsClient.Controllers
                 StartingFunds = request.StartingFunds,
             });
 
-            return Ok(r);
+            if (!r.TransactionSucceeded)
+            {
+                return BadRequest(r.Message);
+            }
+
+            return Created(nameof(r), r);
         }
 
         [HttpPut]
+        [Route("DeleteAccount")]
         public async Task<IActionResult> DeleteAccount(DeleteAccountRequestMessage request)
         {
             var r = await _access.DeleteAccount(new DeleteAccountRequest
@@ -40,6 +47,7 @@ namespace DepositsClient.Controllers
         }
 
         [HttpPost]
+        [Route("Deposit")]
         public async Task<IActionResult> Deposit(DepositRequestMessage request)
         {
             var r = await _access.DepositToAccount(new DepositRequest
@@ -48,10 +56,16 @@ namespace DepositsClient.Controllers
                 DepositAmount = request.DepositAmount
             });
 
+            if (!r.TransactionSucceeded)
+            {
+                return BadRequest(r.Message);
+            }
+
             return Ok(r);
         }
 
-        [HttpGet]
+        [HttpPost]
+        [Route("Withdraw")]
         public async Task<IActionResult> Withdraw(WithdrawRequestMessage request)
         {
             var r = await _access.WithdrawFromAccount(new WithdrawRequest
@@ -60,16 +74,22 @@ namespace DepositsClient.Controllers
                 WithdrawAmount = request.WithdrawAmount
             });
 
+            if (!r.TransactionSucceeded)
+            {
+                return BadRequest(r.Message);
+            }
+
             return Ok(r);
         }
 
         [HttpGet]
-        public async Task<IActionResult> Withdraw(string userId, string userFullName)
+        [Route("GetAllAccounts")]
+        public async Task<IActionResult> GetAllAccounts(string? userId,string userName)
         {
             var r = await _access.GetAllAccountsForUser(new GetUserAccountsRequest
             {
                 UserId = userId,
-                UserFullName = userFullName
+                UserName = userName
             });
 
             return Ok(r);

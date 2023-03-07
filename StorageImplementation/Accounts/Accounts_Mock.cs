@@ -9,17 +9,19 @@ namespace StorageImplementation.Accounts
     public class Accounts_Mock : IAccountsRepository
     {
         private readonly IAdapter<AccountEntity, Account> _adapter;
+        private Account_TestData _data;
         public Accounts_Mock() 
         {
             _adapter = new AccountEntityToAccount();
+            _data = new Account_TestData();
         }
 
         public Task DeleteAccount(string accountId)
         {
-            var account = Account_TestData.TestData.FirstOrDefault(acc => acc.AccountId.Equals(accountId));
+            var account = _data.TestData.FirstOrDefault(acc => acc.AccountId.Equals(accountId));
             if (account is not null)
             {
-                Account_TestData.TestData.Remove(account);
+                _data.TestData.Remove(account);
             }
 
             return Task.CompletedTask;
@@ -27,7 +29,7 @@ namespace StorageImplementation.Accounts
 
         public Task<Account> GetAccount(string accountId)
         {
-            var r = Account_TestData.TestData.FirstOrDefault(x => x.AccountId.Equals(accountId));
+            var r = _data.TestData.FirstOrDefault(x => x.AccountId.Equals(accountId));
             return Task.FromResult(_adapter.AdaptTo(r));
         }
 
@@ -36,12 +38,12 @@ namespace StorageImplementation.Accounts
             if (!string.IsNullOrEmpty(param.UserId))
             {
                 return Task.FromResult(
-                Account_TestData.TestData.Where(x => x.User.Id.Equals(param.UserId))
+                _data.TestData.Where(x => x.User.Id.Equals(param.UserId))
                 .Select(y => _adapter.AdaptTo(y)));
             }
 
             return Task.FromResult(
-                Account_TestData.TestData.Where(x => x.User.FullName.Equals(param.UserFullName, StringComparison.OrdinalIgnoreCase))
+                _data.TestData.Where(x => x.User.Name.Equals(param.UserFullName, StringComparison.OrdinalIgnoreCase))
                 .Select(y => _adapter.AdaptTo(y)));
         }
 
@@ -49,11 +51,17 @@ namespace StorageImplementation.Accounts
         {
             var entityChanges = _adapter.AdaptFrom(param);
 
-            var accountEntity = Account_TestData.TestData.FirstOrDefault(acc => acc.AccountId.Equals(entityChanges.AccountId));
+            var accountEntity = _data.TestData.FirstOrDefault(acc => acc.AccountId.Equals(entityChanges.AccountId));
             if (accountEntity is null)
             {
-                Account_TestData.TestData.Add(entityChanges);
+                _data.TestData.Add(entityChanges);
                 return Task.FromResult(_adapter.AdaptTo(entityChanges));
+            }
+
+            var index = _data.TestData.FindIndex(x => x.AccountId.Equals(accountEntity.AccountId));
+            if (index != -1)
+            {
+                _data.TestData[index] = entityChanges;
             }
 
             accountEntity = entityChanges;

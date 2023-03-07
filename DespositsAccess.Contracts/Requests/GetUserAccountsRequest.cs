@@ -9,6 +9,6 @@ namespace AccountsAccess.Contracts.Requests
     public class GetUserAccountsRequest
     {
         public string UserId { get; set; }
-        public string UserFullName { get; set; }
+        public string UserName { get; set; }
     }
 }

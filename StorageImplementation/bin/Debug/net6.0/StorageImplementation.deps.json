@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "StorageImplementation/1.0.0": {
         "dependencies": {
+          "AccountsAccess.Contracts": "1.0.0",
           "AccountsAccess.Service": "1.0.0"
         },
         "runtime": {

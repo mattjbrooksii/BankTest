@@ -9,7 +9,7 @@ namespace AccountsAccess.Contracts.Models
     public class Account
     {
         public string Id { get; set; }
-        public string UserFullName { get; set; }
+        public string UserName { get; set; }
         public string UserId { get; set; }
         public decimal Balance { get; set; }
 
